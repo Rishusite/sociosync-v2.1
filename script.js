@@ -179,7 +179,7 @@ function playVideo(videoId){
   const overlay=document.querySelector(".video-overlay");
   overlay.classList.add("video-overlay-active");
   overlay.innerHTML=`
-   <video class="story-video-playing" src="videos/story${videoId}.mp4" autoplay loop controls></video>
+   <video class="story-video-playing" src="videos/story2.mp4" autoplay loop controls></video>
   `;
   setTimeout(() => {
     const ani=document.querySelector(".story-video-playing");
